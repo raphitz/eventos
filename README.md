@@ -2,11 +2,13 @@
 
 Exemplo usando Ionic com TypeScript. Em desenvolvimento.
 
-## Table of Contents
- - [Getting Started](#getting-started)
- - [App Preview](#app-preview)
- - [File Structure of App](#file-structure-of-app)
+- como testar:
 
+Antes:
+
+npm install -g ionic cordova
+
+clone, npm install e ionic serve
 
 ## Deploying
 

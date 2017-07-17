@@ -1,7 +1,7 @@
 <ion-header no-border>
   <ion-navbar>
     <ion-buttons end *ngIf="showSkip">
-      <button ion-button (click)="startApp()" color="primary">Skip</button>
+      <button ion-button (click)="startApp()" color="primary">Pular</button>
     </ion-buttons>
   </ion-navbar>
 </ion-header>
@@ -12,28 +12,34 @@
     <ion-slide>
       <img src="assets/img/ica-slidebox-img-1.png" class="slide-image"/>
       <h2 class="slide-title">
-        Welcome to <b>ICA</b>
+        Bem vindo ao seu evento<b></b>
       </h2>
       <p>
-        The <b>ionic conference app</b> is a practical preview of the ionic framework in action, and a demonstration of proper code use.
+        O <b>PERSONAL evento app</b> foi feito divido em 3 estapas. Pré evento, dia do evento e pós evento
       </p>
     </ion-slide>
 
     <ion-slide>
       <img src="assets/img/ica-slidebox-img-2.png" class="slide-image"/>
-      <h2 class="slide-title" >What is Ionic?</h2>
-      <p><b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies like HTML, CSS, and JavaScript.</p>
+      <h2 class="slide-title" >Pré-Evento - Organização</h2>
+      <p><b>Organizar evento</b> Crie o evento, convide pessoas, divulge app e forme sua agenda.</p>
     </ion-slide>
 
     <ion-slide>
       <img src="assets/img/ica-slidebox-img-3.png" class="slide-image"/>
-      <h2 class="slide-title">What is Ionic Platform?</h2>
-      <p>The <b>Ionic Platform</b> is a cloud platform for managing and scaling Ionic apps with integrated services like push notifications, native builds, user auth, and live updating.</p>
+      <h2 class="slide-title">No evento</h2>
+      <p>A <b>Plataforma</b> diz dia e horários, quem é, contato e informações importantes para que participa do evento.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-3.png" class="slide-image"/>
+      <h2 class="slide-title">Pós evento</h2>
+      <p>O <b>Feedback</b> O que as pessoas acharam, as fotos, videos, coisas complementares etc.</p>
     </ion-slide>
 
     <ion-slide>
       <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>
-      <h2 class="slide-title">Ready to Play?</h2>
+      <h2 class="slide-title">Utilizar</h2>
       <button ion-button icon-end large clear (click)="startApp()">
         Continue
         <ion-icon name="arrow-forward"></ion-icon>
